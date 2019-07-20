@@ -1,0 +1,18 @@
+{
+    "debugs-on":
+    {
+        "DistributedLawbotChairAI": ["cogFlyAndSit"],
+        "DistributedSellbotBossAI": ["enterBattleThree", "__doAreaAttack", "hitBossInsides", "hitBoss"],
+        "DistributedCashbotBossAI": ["enterBattleThree", "recordHit"],
+        "DistributedLawbotBossAI": ["hitBoss"],
+        "DistributedBossbotBossAI": ["hitBoss"]
+    },
+    "debugs-off":
+    {
+        "DistributedLawbotChairAI": ["cogFlyAndSit"],
+        "DistributedSellbotBossAI": ["enterBattleThree", "__doAreaAttack", "hitBossInsides", "hitBoss"],
+        "DistributedCashbotBossAI": ["enterBattleThree", "recordHit"],
+        "DistributedLawbotBossAI": ["hitBoss"],
+        "DistributedBossbotBossAI": ["hitBoss"]
+    }
+}
