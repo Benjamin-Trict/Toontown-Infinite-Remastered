@@ -24,7 +24,7 @@ Anyways, there are several changes made to this version:
 - Added ~fillJury and ~stun commands to the CJ.  ~fillJury can also be followed by the number of seats you want to fill in the cannon round if you don't want to seat all 12.  It only works during the cannon round, and only once you're inside a cannon.
 - Fixed the factory back to its original difficulty.
 - There are no cogs walking around in Bossbot HQ.
-- Debugs for boss health are included.  For those who don't know how they work, (if enabled) every time you damage a boss, a debug whisper will alert you how much health the boss has left. - https://imgur.com/cUlO0Qj
+- Debugs for boss health are included.  For those who don't know how they work, (if enabled) every time you damage a boss, a debug whisper will alert you how much health the boss has left. - https://imgur.com/cUlO0Qj  To enable this feature, once in-game type "~config suite debugs-on".  Additionally to turn them off again you can type "~config suite debugs-off".
 
 For anyone who still wants the server from January of 2015, here's the file in a .7z format:
 https://www.mediafire.com/file/mushfxwaqv7yxxh/Toontown-Infinite.7z/file
@@ -43,6 +43,8 @@ To run these servers, follow these instructions:
 Retro: First run start_astron_server.  Then run start_uberdog_server and press enter once.  Then run start_ai_server and press enter twice.  Finally run start_game_localhost, put in a username, and press enter.
 
 Remastered or Original: Navigate to the astron folder in the main directory and find the win32 folder (inside the astron directory).  Run start_all.bat and then find the Command Prompt labeled start_uberdog_server and press enter once.  Then find the Command Prompt labeled start_ai_server and press enter twice.  Lastly navigate back to the main directory (the level before astron) and inside the win32 folder, run start_game_localhost.  Type a username and press enter.  The client should launch.
+
+Here's a list of commands (apart from the ones mentioned above) that you can use in-game by typing them in the chat box - https://pastebin.com/7qG3PrB5
 
 If you have any questions regarding any of this, feel free to contact me on Discord: Benjamin#8777
 
