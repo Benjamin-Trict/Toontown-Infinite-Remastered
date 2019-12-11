@@ -35,7 +35,7 @@ http://www.mediafire.com/file/xdws5sbdbrnxb1s/Panda3D-1.9.0.rar/file
 You'll need to extract the folder and put it on the C drive, if you'd prefer to put it somewhere else you can change the directory of the Python file in PPYTHON_PATH.  Please note that the remastered version uses this same Panda3D, but it does not need to be moved since it works from inside the 'src' folder.
 
 And lastly, here's the old retro source:
-https://www.mediafire.com/file/ygqczswwjrmsfoh/ToontownInfinite-Retro.7z/file
+http://www.mediafire.com/file/rbdqqe15vts08ek/Toontown_Infinite_Retro.rar/file
 The only modifications worth mentioning for this one are a few bug fixes so that the game client will launch, oddly it was originally working from 2 different resource directories and had no 'databses' folder.  Also, the default accessLevel for all accounts has been set to 700 (making everyone an administrator,) and the Toontorial will prompt rather or not to skip it, regardless of rather or not you're making your first toon.
 
 To run these servers, follow these instructions:
