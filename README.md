@@ -26,17 +26,17 @@ Anyways, there are several changes made to this version:
 - There are no cogs walking around in Bossbot HQ.
 - Debugs for boss health are included.  For those who don't know how they work, (if enabled) every time you damage a boss, a debug whisper will alert you how much health the boss has left. - https://imgur.com/cUlO0Qj  To enable this feature, once in-game type "~config suite debugs-on".  Additionally to turn them off again you can type "~config suite debugs-off".
 
-For anyone who still wants the server from January of 2015, here's the file in a .7z format:
-https://www.mediafire.com/file/mushfxwaqv7yxxh/Toontown-Infinite.7z/file
-You'll need a file archiver program to extract it.  I recommend 7-Zip.  The source in the link is optimized for soloing bosses, gags are set to always hit and elevator timers for bosses are set to 0.
+For anyone who still wants the server from January of 2015, here's the file in a .rar format:
+http://www.mediafire.com/file/j6nwmyyyqj2hfdx/%255BTTI_Fresh%255D_-_Final.rar/file
+You'll need a file archiver program to extract it.  I recommend 7-Zip.  In addition, a few of the modifications from this redesigned server have been implemented into this one.
 
 And here's the Panda3D you'll need to run it, it already has PYYAML and semidbm included:
-https://www.mediafire.com/file/xvo7i80ao47uzgd/Panda3D-1.9.0.7z/file
+http://www.mediafire.com/file/xdws5sbdbrnxb1s/Panda3D-1.9.0.rar/file
 You'll need to extract the folder and put it on the C drive, if you'd prefer to put it somewhere else you can change the directory of the Python file in PPYTHON_PATH.  Please note that the remastered version uses this same Panda3D, but it does not need to be moved since it works from inside the 'src' folder.
 
 And lastly, here's the old retro source:
 https://www.mediafire.com/file/ygqczswwjrmsfoh/ToontownInfinite-Retro.7z/file
-The only modifications worth mentioning for this one are a few bug fixes so that the game client will launch, oddly it was originally working from 2 different resource directories and had no 'databses' folder.
+The only modifications worth mentioning for this one are a few bug fixes so that the game client will launch, oddly it was originally working from 2 different resource directories and had no 'databses' folder.  Also, the default accessLevel for all accounts has been set to 700 (making everyone an administrator,) and the Toontorial will prompt rather or not to skip it, regardless of rather or not you're making your first toon.
 
 To run these servers, follow these instructions:
 
